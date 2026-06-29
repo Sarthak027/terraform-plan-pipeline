@@ -1,0 +1,67 @@
+# ==========================
+# Terraform
+# ==========================
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Terraform dependency lock file
+# Uncomment the next line if you do NOT want to version the lock file.
+# .terraform.lock.hcl
+
+# Terraform plan files
+*.tfplan
+tfplan
+
+# Variable files containing secrets
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Ignore local secret variable files
+terraform.tfvars.local
+*.tfvars.local
+
+# ==========================
+# Environment Variables
+# ==========================
+
+.env
+.env.*
+
+# ==========================
+# IDE Files
+# ==========================
+
+.vscode/
+.idea/
+
+# ==========================
+# Operating System Files
+# ==========================
+
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Logs
+# ==========================
+
+*.log
