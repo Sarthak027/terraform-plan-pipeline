@@ -3,7 +3,7 @@ name: Terraform Plan
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   terraform:
@@ -24,6 +24,7 @@ jobs:
 
       - name: Terraform Init
         run: terraform init
+
 
       - name: Terraform Format Check
         run: terraform fmt -check
